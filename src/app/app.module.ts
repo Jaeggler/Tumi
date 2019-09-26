@@ -5,13 +5,19 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { LoginComponent } from './login/login.component';
 import { MenuComponent } from './menu/menu.component';
+import { ReportComponent } from './reports/report.component';
+import { AccessConfigComponent } from './accss_config/accsconf.component';
+import { LoggedDataComponent } from './loggeddata/loggeddata.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     LoginComponent,
-    MenuComponent
+    MenuComponent,
+    ReportComponent,
+    AccessConfigComponent,
+    LoggedDataComponent
   ],
   imports: [
     BrowserModule
