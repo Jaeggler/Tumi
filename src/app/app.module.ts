@@ -8,6 +8,7 @@ import { MenuComponent } from './menu/menu.component';
 import { ReportComponent } from './reports/report.component';
 import { AccessConfigComponent } from './accss_config/accsconf.component';
 import { LoggedDataComponent } from './loggeddata/loggeddata.component';
+import { AppRoutingModule } from './app-routing.module';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { LoggedDataComponent } from './loggeddata/loggeddata.component';
     LoggedDataComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]

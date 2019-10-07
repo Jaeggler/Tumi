@@ -1,19 +1,17 @@
-<body class="p-5">
-
-    <div class="container-fluid mt-5" >
-      <div class="row d-flex justify-content-center">
-        <div class="col-8">
-          <div class="card shadow-lg border-0">
-              <app-header></app-header>
-            <div id='cardbody' class="card-body text-center rounded-bottom" style="height:600px">
-              <app-report></app-report>
+  <div class="container-fluid h-100" >
+    <div class="row d-flex justify-content-center align-items-center bg-light h-100">
+        <div class="col-10">
+            <div class="card shadow-lg h-50">
+                <app-header></app-header>
+                    <div id='cardbody' class="card-body d-flex justify-content-center rounded-bottom">
+                <router-outlet></router-outlet>
+                </div>
             </div>
-      </div>
+        </div>
     </div>
   </div>
-</div>
 
-</body>
+
 
 
 
